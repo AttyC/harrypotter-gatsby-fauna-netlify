@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
-import HarryPotterLogo from "../../assets/svg-silhouette-harry-potter-4-transparent.svg.svg";
+// import HarryPotterLogo from "../../assets/svg-silhouette-harry-potter-4-transparent.svg.svg";
 import { Link } from "gatsby";
 import styled from "@emotion/styled";
 
