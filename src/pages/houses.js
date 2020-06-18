@@ -3,7 +3,47 @@ import { jsx } from "theme-ui";
 import React from "react";
 import { gql, useQuery } from "@apollo/client";
 import MainSection from "./../components/site/main-section";
-import { HousesPhoneTemplateAreas, HousesTabletTemplateAreas, HousesDesktopTemplateAreas } from "../window";
+// import { HousesPhoneTemplateAreas, HousesTabletTemplateAreas, HousesDesktopTemplateAreas } from "../window";
+
+const HousesSpellsPhoneTemplateAreas = `
+    'header'
+    'main'
+    'main'
+    `;
+
+const HousesSpellsTabletTemplateAreas = `
+    'header    header        header   header'
+    'main    main        main   main'
+    `;
+
+const HousesSpellsDesktopTemplateAreas = `
+    'header    header        header   header'
+    'main    main        main   main'
+    `;
+
+const HomePhoneTemplateAreas = `
+    'logo'
+    'logo'
+    'logo'
+    'author'
+    'author'
+    'author'
+    'author'
+    `;
+
+const HomeTabletTemplateAreas = `
+    'logo       .           .     '
+    'logo       author      author'
+    'logo       author      author'
+    '.          .           .     '
+    `;
+
+const HomeDesktopTemplateAreas = `
+    'logo       .           .     '
+    'logo       author      author'
+    'logo       author      author'
+    '.          .           .     '
+    `;
 
 const GET_CHARACTERS = gql`
   query GetCharacters {

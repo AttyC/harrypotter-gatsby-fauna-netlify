@@ -57,7 +57,7 @@ const MainSection = React.memo(({ house, getHouse }) => {
       </section>
     </div>
   ) : (
-    <Loading />
+    "Loading..."
   );
 });
 export default MainSection;
