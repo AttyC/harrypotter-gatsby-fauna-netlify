@@ -1,0 +1,27 @@
+type Query {
+        allCharacters: [Character]!
+        allSpells: [Spell]!
+    }
+
+    type Character {
+        name: String!
+        house: String
+        patronus: String
+        bloodStatus: String
+        role: String
+        school: String
+        deathEater: Boolean
+        dumbledoresArmy: Boolean
+        orderOfThePheonix: Boolean
+        ministryOfMagic: Boolean
+        alias: String
+        wand: String
+        boggart: String
+        animagus: String
+    }
+
+    type Spell {
+        effect: String
+        spell: String
+        type: String
+    }
