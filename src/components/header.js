@@ -34,7 +34,7 @@ const Header = ({ location }) => {
         display: location.pathname === "/" ? "none" : "flex"
       }}
     >
-      <Link to="/">
+      {/* <Link to="/">
         <HarryPotterLogo
           sx={{
             height: "100px",
@@ -42,7 +42,7 @@ const Header = ({ location }) => {
             padding: "1em"
           }}
         />
-      </Link>
+      </Link> */}
 
       <PageLink
         sx={{
