@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui";
 import React from "react";
 import { Global, css } from "@emotion/core";
-import Header from "../components/site/header";
+import Header from "../components/header";
 
 const Layout = ({ children, location }) => {
   return (

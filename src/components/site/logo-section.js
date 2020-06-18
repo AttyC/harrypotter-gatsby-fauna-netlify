@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
-import { Logo } from "./logo";
+// import { Logo } from "./logo";
 const LogoSection = () => {
   return (
     <section
@@ -13,7 +13,7 @@ const LogoSection = () => {
         width: "100%"
       }}
     >
-      <Logo />
+      {/* <Logo /> */}
     </section>
   );
 };
