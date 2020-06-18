@@ -1,10 +1,10 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
 import React from "react";
-import Card from "../cards/card";
+import Card from "./card";
 import SearchBar from "./searchbar";
 import { useSearchBar } from "./useSearchbar";
-import Loading from "./loading";
+// import Loading from "./loading";
 import HouseSection from "./house-section";
 
 const MainSection = React.memo(({ house, getHouse }) => {
